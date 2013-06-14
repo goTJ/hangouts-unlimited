@@ -1,1 +1,8 @@
-Automatically confirms the 90-minute periodic prompt on G+ Hangouts video conference.
+Objective:
+* Automatically confirms still-alive prompt.
+
+Features:
+* G+ Hangouts: Automatically confirms the 90-minute periodic prompt on G+ Hangouts video conference.
+
+TODO:
+* Add a small icon on URL bar when script is working.
