@@ -18,8 +18,6 @@ function checkForPrompt() {
       simulateClick(item);
     }
   });
-
-  setTimeout(checkForPrompt, 15000); // Repeat every 15 seconds
 }
 
-setTimeout(checkForPrompt, 15000); // Repeat every 15 seconds
+window.setInterval(checkForPrompt, 15000); // Repeat every 15 seconds
