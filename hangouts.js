@@ -12,7 +12,6 @@ function checkForPrompt() {
     simulate(target, "mouseup");
     simulate(target, "mouseout");
   }
-  alert('lala');
 
   $('div[role="button"]').each(function(idx, item) // For each div with attribute role = "button"
       {
