@@ -13,13 +13,11 @@ function checkForPrompt() {
     simulate(target, "mouseout");
   }
 
-  $('div[role="button"]').each(function(idx, item) // For each div with attribute role = "button"
-      {
-      if ($(item).html().indexOf("Yes") >= 0) // Correct button found
-      {
+  $('div[role="button"]').each(function(idx, item) {
+    if ($(item).html().indexOf("Yes") >= 0) {
       simulateClick(item);
-      }
-      });
+    }
+  });
 
   setTimeout(checkForPrompt, 15000); // Repeat every 15 seconds
 }
