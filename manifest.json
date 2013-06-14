@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "G+ Hangouts Video Unlimited",
+  "version": "0.1",
+  "description": "Automatically confirms the 90-minute periodic prompt on G+ Hangouts video conference.",
+
+  "content_scripts": [
+    {
+      "matches": ["https://plus.google.com/hangouts/_/*"],
+      "js": [ "jquery-2.0.2.min.js", "script.js" ],
+    }
+  ],
+}
