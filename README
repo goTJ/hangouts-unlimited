@@ -3,6 +3,7 @@ Objective:
 
 Features:
 * G+ Hangouts: Automatically confirms the 90-minute periodic prompt on G+ Hangouts video conference.
+* Google Music: Automatically confirms prompt.
 
 TODO:
 * Add a small icon on URL bar when script is working.

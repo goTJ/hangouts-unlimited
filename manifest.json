@@ -4,11 +4,23 @@
   "name": "I am still alive!",
   "version": "0.1",
   "description": "Automatically confirms still-alive prompt.",
+  "icons": {
+    "16": "images/icon-16.png"
+  },
 
   "content_scripts": [
     {
       "matches": ["https://plus.google.com/hangouts/_/*"],
-      "js": [ "jquery-2.0.2.min.js", "hangouts.js" ]
+      "js": [ "jquery-2.0.2.min.js", "lib.js", "hangouts.js" ]
+    },
+    {
+      "matches": ["https://play.google.com/music/listen#/*"],
+      "js": [ "jquery-2.0.2.min.js", "lib.js", "music.js" ]
     }
-  ]
+  ],
+
+  "page_action": {
+    "default_title": "I'm alive!",
+    "default_icon": "images/icon-16.png"
+  }
 }
