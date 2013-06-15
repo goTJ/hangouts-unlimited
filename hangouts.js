@@ -1,3 +1,5 @@
+showPageAction();
+
 function checkForPrompt() {
   $('div[role="button"]').each(function(idx, item) {
     if ($(item).html().indexOf("Yes") >= 0) {

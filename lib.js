@@ -11,3 +11,9 @@ function simulateClick(target) {
   simulate(target, "mouseup");
   simulate(target, "mouseout");
 }
+
+function showPageAction() {
+  chrome.extension.sendRequest({
+    action: 'showPageAction'
+  }, function (response) {});
+}

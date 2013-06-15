@@ -1,3 +1,5 @@
+showPageAction();
+
 function checkForPrompt() {
   $('button').each(function(idx, item) {
     if ($(item).html().indexOf("still listening") >= 0 ||
